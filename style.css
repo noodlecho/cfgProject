@@ -9,6 +9,7 @@ body {
     font-weight: 100;
     font-size: 35px;
     padding: 50px;
+    color: white;
     /* display: flex;
     flex-direction: column; */
 }
@@ -16,6 +17,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    background-color: black;
 }
 
 .nav_bar {
@@ -24,24 +26,30 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding: 10px;
-    margin: 50px;
-    
+    margin: 50px;  
 }
 
 .nav_a {
     margin: 0 2px;
-    padding: 0
+    padding: 0;
+    color: #ffffff;
+    text-decoration: none; /* removes underline */
 }
 
 .nav_b {
     padding: 0px 100px;  /* adjusts the space between the links in nav*/
+    color: #ffffff;
+    text-decoration: none; 
 }
 
 .nav_c {
     font-weight: normal;
     padding: 0px 5px;
-
+    color: #ffffff;
+    text-decoration: none; 
 }
+
+
 
 
 
