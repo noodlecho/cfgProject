@@ -8,7 +8,7 @@ body {
     font-family: 'Comfortaa', cursive;
     font-weight: 100;
     font-size: 35px;
-    padding: 50px;
+    padding: 2%;
     color: white;
     /* display: flex;
     flex-direction: column; */
@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    background-attachment: fixed; /* trying to make the header stay fixed, didn't work */
 }
 
 .nav_bar {
@@ -49,8 +50,34 @@ body {
     text-decoration: none; 
 }
 
+main {
+    color: #ffffff;
+    background-color: black;
+    padding: 10%;
+}
 
+footer {
+    color: #ffffff;
+    background-color: black;
+    padding: 5%;
+}
+.parallax {
+    background-image: url("cfg calton.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+.parallaxTwo {
+    background-image: url("cfg edinburgh night.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 
 
