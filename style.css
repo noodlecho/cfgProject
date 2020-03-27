@@ -18,7 +18,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    background-attachment: fixed; /* trying to make the header stay fixed, didn't work */
+    position: fixed; 
+    width: 100%;
 }
 
 .nav_bar {
@@ -65,7 +66,7 @@ footer {
     background-image: url("cfg calton.jpg");
     height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: 50% -30%;
     background-repeat: no-repeat;
     background-size: cover;
   }
