@@ -64,7 +64,7 @@ footer {
     padding: 5%;
 }
 .parallax {
-    background-image: url("cfg calton.jpg");
+    background-image: url("../img/cfg\ calton.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: 50% -30%;
@@ -73,7 +73,7 @@ footer {
   }
 
 .parallaxTwo {
-    background-image: url("cfg edinburgh night.jpg");
+    background-image: url("../img/cfg\ edinburgh night.jpg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
