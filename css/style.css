@@ -5,12 +5,13 @@ body {
   }
 
 .header {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     font-family: 'Comfortaa', cursive;
     font-weight: 100;
     font-size: 35px;
     padding: 2%;
     color: white;
+    margin-left: 5%;
     /* display: flex;
     flex-direction: column; */
 }
@@ -18,16 +19,17 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: transparent;
     position: fixed; 
     width: 100%;
+    font-size: 20px;
 }
 
 .nav_bar {
     list-style-type: none;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 10px;
     margin: 50px;  
 }
@@ -36,12 +38,14 @@ body {
     margin: 0 2px;
     padding: 0;
     color: #ffffff;
+    font-weight: 900;
     text-decoration: none; /* removes underline */
 }
 
 .nav_b {
     padding: 0px 100px;  /* adjusts the space between the links in nav*/
     color: #ffffff;
+    font-weight: 900;
     text-decoration: none; 
 }
 
@@ -49,25 +53,46 @@ body {
     font-weight: normal;
     padding: 0px 5px;
     color: #ffffff;
+    font-weight: 900;
     text-decoration: none; 
 }
 
 main {
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(38, 108, 126);
     padding: 10%;
 }
 
 footer {
     color: #ffffff;
-    background-color: black;
+    background-color: rgb(105, 39, 45);
     padding: 5%;
 }
+
+.subscribe {
+    text-align: center;
+}
+
+.email-form-container {
+    text-align: center;
+}
+
+.email-form {
+    display: inline-block;
+}
+
+.email {
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(112, 106, 106);
+    
+}
+
 .parallax {
     background-image: url("../img/cfg\ calton.jpg");
-    height: 500px;
+    height: 700px;
     background-attachment: fixed;
-    background-position: 50% -30%;
+    background-position: 50% 0%;
     background-repeat: no-repeat;
     background-size: cover;
   }
