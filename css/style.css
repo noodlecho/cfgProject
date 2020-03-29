@@ -133,7 +133,13 @@ footer {
   }
  
 
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: white;
 
+}
 
 ul {
   list-style-type: none;
@@ -152,6 +158,6 @@ li {
 }
  
 li:hover {
-  background: #eee;
+  background: rgb(105, 39, 45);
   cursor: pointer;
 }
