@@ -131,6 +131,33 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
   }
+ 
 
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: white;
 
+}
 
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+ 
+li img {
+  float: left;
+  margin: 0 50px 0 0;
+  margin-block-end: 20px;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+li:hover {
+  background: rgb(105, 39, 45);
+  cursor: pointer;
+}
