@@ -58,6 +58,10 @@ body {
     text-decoration: none; 
 }
 
+.title {
+    font-family: 'BebasNeue-Regular';
+}
+
 main {
     color: #ffffff;
     background-color: rgb(31, 56, 61);
