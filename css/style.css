@@ -32,6 +32,7 @@ body {
     flex-direction: row;
     padding: 10px;
     margin: 50px;  
+    text-shadow: 1px 1px grey;
 }
 
 .nav_a {
@@ -59,7 +60,7 @@ body {
 
 main {
     color: #ffffff;
-    background-color: rgb(38, 108, 126);
+    background-color: rgb(31, 56, 61);
     padding: 10%;
 }
 
@@ -85,7 +86,12 @@ footer {
     border: 2px solid white;
     background-color: white;
     color: rgb(112, 106, 106);
-    
+    padding: 5px 50px;
+}
+
+.button {
+    background-color: white;
+    padding: 5px 15px;
 }
 
 .parallax {
