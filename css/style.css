@@ -58,6 +58,26 @@ body {
     text-decoration: none; 
 }
 
+.imgcontainer2 {
+    text-align: center;
+    background-image: url("../img/Rest-Witchery.jpg");
+    background-position: center;
+    background-size: cover; /* covers the whole background */
+    height: 550px;
+    z-index: -3;
+    position: relative;
+}
+
+.imgcontainer3 {
+    text-align: center;
+    background-image: url("../img/cfg nmuseum.jpg");
+    background-position: center;
+    background-size: cover; 
+    height: 550px;
+    z-index: -3;
+    position: relative;
+}
+
 .title {
     font-family: 'Bebas Neue';
     text-align: center;
@@ -67,13 +87,17 @@ body {
 .title2 {
     font-family: 'Bebas Neue';
     text-align: center;
-    font-size: 200%;
+    font-size: 70px;
+    transform: translate(0%, 250%);  /* positions text in centre of img */ 
+    color: white;
 }
 
 .title3 {
     font-family: 'Bebas Neue';
     text-align: center;
-    font-size: 200%;
+    font-size: 70px;
+    transform: translate(0%, 250%);
+    color: white;
 }
 
 main {
